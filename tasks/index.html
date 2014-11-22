@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tasks</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<table id="contacts-table">
+    <tr id="contacts-head">
+        <form id="contacts-form">
+            <th>
+                <div class="field">
+                    <input type="text" name="client" placeholder="Client/Project" />
+                </div>
+            </th>
+            <th>
+                <div class="field">
+                    <input type="text" name="task" placeholder="Task" />
+                </div>
+            </th>
+            <th>
+                <div class="item button button-default">
+                    <div class="field">
+                        <input type="submit" id="contacts-op-save" value="Save" />
+                    </div>
+                </div>
+                    <div class="item button">
+                        <div class="field">
+                            <input type="button" id="contacts-op-discard" value="Discard" />
+                        </div>
+                    </div>
+            </th>
+            <th colspan="2">
+                <div id="clock"></div>
+                <input type="hidden" name="id_entry" value="0" />
+                <input type="hidden" name="toggle_val" value="mine" />
+            </th>
+        </form>
+    </tr>
+</table>
+</body>
+</html>

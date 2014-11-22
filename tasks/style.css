@@ -1,0 +1,130 @@
+a {
+    color: #0068D2;
+    cursor: pointer;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #0068D2;
+}
+a:hover, a:active {
+    text-decoration: underline;
+    color: #0068D2;
+}
+body {
+    font: 12px/18px"Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+#contacts-table {
+    border-collapse: collapse;
+}
+#contacts-table, #contacts-table td {
+    padding: 8px 16px;
+    text-align: left;
+    border: 1px solid #B9BABE;
+}
+#contacts-table th {
+    padding: 0px 2px;
+}
+#contacts-table td {
+    color: #000;
+}
+#contacts-table tr:nth-child(2n) {
+    background: #E8EDFF;
+}
+#clock {
+    font-size:14px;
+    font-weight:bold;
+    
+}
+.text input, .button input {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.item {
+    margin: 3px 0;
+}
+.field {
+    display: inline-block;
+    color: #0C0B07;
+}
+.text input {
+    width: 100%;
+    padding: 3px;
+}
+.button {
+    display: inline-block;
+}
+.button input {
+    padding: 4px 8px;
+    color: #343434;
+    background-color: #fdfdfd;
+    background: -moz-linear-gradient(#fdfdfd, #e1e1e1);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#e1e1e1));
+}
+.button-default input {
+    font-weight: bold;
+    color: #fff;
+    background-color: #7ca0c7;
+    background: -moz-linear-gradient(#acc6e1, #7ca0c7);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#acc6e1), to(#7ca0c7));
+    border-color: #5b80b2;
+}
+.mine {
+    background-color: #CA2727;
+    text-align: right!important;
+}
+.theirs {
+    /*background-color: #A1A1A1;*/
+}
+.mine, .theirs {
+    text-transform: uppercase;
+    padding: 10px!important;
+    width: 200px;
+}
+.mine a {
+    display: block;
+    color: #FFFFFF!important;
+}
+.theirs a {
+    display: block;
+}
+.time a {
+    display: block;
+}
+.time8h {
+    background-color: rgb(255, 255, 66);
+}
+.time9h {
+    background-color: rgb(255, 245, 66);
+}
+.time10h {
+    background-color: rgb(255, 235, 66);
+}
+.time11h {
+    background-color: rgb(255, 225, 66);
+}
+
+.time12h {
+    background-color: rgb(255, 215, 66);
+}
+.time13h {
+    background-color: rgb(255, 205, 66);
+}
+.time14h {
+    background-color: rgb(255,195,66);
+}
+.time1d {
+    background-color: rgb(255,120,66);
+}
+
+.time2d {
+    background-color: rgb(255,88,66);
+}
+
+.time3d,
+.time4d,
+.time5d {
+    background-color: rgb(255,66,66);
+}
+}
